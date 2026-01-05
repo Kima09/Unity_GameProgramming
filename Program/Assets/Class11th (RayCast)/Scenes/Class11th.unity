@@ -119,6 +119,23 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &125321714 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6071041459777487180, guid: 70482b15f0d85914eb52f732244c5ec4, type: 3}
+  m_PrefabInstance: {fileID: 437010587}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &125321715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 125321714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad1fb976ff7dab149a69b7c1e0bceb21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Tent
 --- !u!1001 &437010587
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -178,7 +195,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6071041459777487180, guid: 70482b15f0d85914eb52f732244c5ec4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 125321715}
   m_SourcePrefab: {fileID: 100100000, guid: 70482b15f0d85914eb52f732244c5ec4, type: 3}
 --- !u!1 &661253658
 GameObject:
@@ -411,6 +431,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 466553694052377376, guid: 459779eb9dd936642b9c14295e40ccee, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1368998629}
+    - targetCorrespondingSourceObject: {fileID: 466553694052377376, guid: 459779eb9dd936642b9c14295e40ccee, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1368998630}
   m_SourcePrefab: {fileID: 100100000, guid: 459779eb9dd936642b9c14295e40ccee, type: 3}
 --- !u!1 &1368998628 stripped
 GameObject:
@@ -438,6 +461,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 4, z: 2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1368998630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1368998628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dd4feab4724bed4180d7c395c952de2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CampFire
 --- !u!1 &1895024177
 GameObject:
   m_ObjectHideFlags: 0
